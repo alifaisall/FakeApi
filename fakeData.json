@@ -1,0 +1,2462 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "image": "../../assets/images/product1.jpg",
+        "name": "Ice Cup",
+        "category": "Frozen Products",
+        "unitPrice": 1000,
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "name": "Crystal Ice",
+        "image": "../../assets/images/product2.jpg",
+        "category": "Frozen Products",
+        "unitPrice": 2500,
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "3",
+        "name": "Block Ice",
+        "image": "../../assets/images/product2.jpg",
+        "category": "Frozen Products",
+        "unitPrice": 5000,
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      }
+    ],
+    "packages": [
+      {
+        "id": "1",
+        "name": "Package 1",
+        "product": {
+          "id": 1,
+          "name": "Ice Cup"
+        },
+        "type": "box",
+        "quantity": 12,
+        "price": 12000,
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "name": "Package 2",
+        "product": {
+          "id": 1,
+          "name": "Ice Cup"
+        },
+        "type": "box",
+        "quantity": 24,
+        "price": 24000,
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "3",
+        "name": "Package 3",
+        "product": {
+          "id": 1,
+          "name": "Ice Cup"
+        },
+        "type": "box",
+        "quantity": 36,
+        "price": 36000,
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      }
+    ],
+    "production": [
+      {
+        "id": "1",
+        "product": {
+          "id": 1,
+          "name": "Ice Cup",
+          "unitPrice": 1000
+        },
+        "package": {
+          "id": 1,
+          "name": "Package 1",
+          "product": {
+            "id": 1,
+            "name": "Ice Cup"
+          },
+          "quantity": 12,
+          "price": 12000
+        },
+        "quantity": 100,
+        "supplies": [
+          {
+            "id": 1,
+            "name": "Cup",
+            "unitPrice": 200,
+            "quantity": 100
+          },
+          {
+            "id": 2,
+            "name": "Box",
+            "unitPrice": 100,
+            "quantity": 100
+          }
+        ],
+        "cost": 250000,
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "product": {
+          "id": 1,
+          "name": "Crystal Ice",
+          "unitPrice": 2500
+        },
+        "package": {
+          "id": 1,
+          "name": "Package 1",
+          "product": {
+            "id": 1,
+            "name": "Crystal Ice"
+          },
+          "quantity": 12,
+          "price": 12000
+        },
+        "quantity": 84,
+        "supplies": [
+          {
+            "id": 1,
+            "name": "Paper",
+            "unitPrice": 200,
+            "quantity": 100
+          },
+          {
+            "id": 2,
+            "name": "Box",
+            "unitPrice": 100,
+            "quantity": 100
+          }
+        ],
+        "cost": 250000,
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "3",
+        "product": {
+          "id": 1,
+          "name": "Block Ice",
+          "unitPrice": 5000
+        },
+        "package": {
+          "id": 1,
+          "name": "Package 3",
+          "product": {
+            "id": 1,
+            "name": "Block Ice"
+          },
+          "quantity": 12,
+          "price": 12000
+        },
+        "quantity": 50,
+        "supplies": [
+          {
+            "id": 1,
+            "name": "Cup",
+            "unitPrice": 200,
+            "quantity": 100
+          },
+          {
+            "id": 2,
+            "name": "Box",
+            "unitPrice": 100,
+            "quantity": 100
+          }
+        ],
+        "cost": 250000,
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "4",
+        "product": {
+          "id": 1,
+          "name": "Ice Cup",
+          "unitPrice": 1000
+        },
+        "package": {
+          "id": 4,
+          "name": "Package 2",
+          "product": {
+            "id": 1,
+            "name": "Ice Cup"
+          },
+          "quantity": 12,
+          "price": 12000
+        },
+        "quantity": 100,
+        "supplies": [
+          {
+            "id": 1,
+            "name": "Cup",
+            "unitPrice": 200,
+            "quantity": 100
+          },
+          {
+            "id": 2,
+            "name": "Box",
+            "unitPrice": 100,
+            "quantity": 100
+          }
+        ],
+        "cost": 250000,
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      }
+    ],
+    "customers": [
+      {
+        "name": "Customer 1",
+        "type": "Restaurant",
+        "phoneNumber": "0770 123 4567",
+        "address": {
+          "name": "Near Alley 1",
+          "latitude": 35.567841444389984,
+          "longitude": 45.41318875659087
+        },
+        "zone": {
+          "id": "2",
+          "name": "Zone 2",
+          "alleys": [
+            {
+              "name": "Alley 1",
+              "latitude": 1,
+              "longitude": 1
+            },
+            {
+              "name": "Alley 2",
+              "latitude": 2,
+              "longitude": 2
+            }
+          ]
+        },
+        "rewardPercentage": 223,
+        "id": "1"
+      },
+      {
+        "name": "Customer 2",
+        "type": "Restaurant",
+        "phoneNumber": "0770 123 4567",
+        "address": {
+          "name": "Near Alley 2",
+          "latitude": 35.56490907544993,
+          "longitude": 45.41434747088633
+        },
+        "zone": {
+          "id": "58e7",
+          "name": "Zone 5",
+          "alleys": [
+            {
+              "name": "Alley 3",
+              "latitude": 35.56787635289727,
+              "longitude": 45.412974179870474
+            },
+            {
+              "name": "Alley 5",
+              "latitude": 35.56490907544993,
+              "longitude": 45.41434747088633
+            },
+            {
+              "name": "Alley 3",
+              "latitude": 35.56913304904511,
+              "longitude": 45.41542035449129
+            }
+          ]
+        },
+        "rewardPercentage": 22,
+        "id": "2"
+      },
+      {
+        "name": "Customer 3",
+        "type": "Restaurant",
+        "phoneNumber": "0770 123 4567",
+        "address": {
+          "name": "Near Alley 3",
+          "latitude": 35.567841444389984,
+          "longitude": 45.41318875659087
+        },
+        "zone": {
+          "id": "1",
+          "name": "Zone 1",
+          "alleys": [
+            {
+              "name": "Alley 1",
+              "latitude": 35.567841444389984,
+              "longitude": 45.41318875659087
+            },
+            {
+              "name": "Alley 2",
+              "latitude": 35.566200727373584,
+              "longitude": 45.418295682555936
+            }
+          ]
+        },
+        "rewardPercentage": 50,
+        "id": "3"
+      },
+      {
+        "name": "Customer 4",
+        "type": "Hotel",
+        "phoneNumber": "07799999999",
+        "address": {
+          "name": "60M Street",
+          "latitude": 35.56703854451584,
+          "longitude": 45.416450322753974
+        },
+        "zone": {
+          "id": "3",
+          "name": "Zone 3",
+          "alleys": [
+            {
+              "name": "Alley 1",
+              "latitude": 1,
+              "longitude": 1
+            },
+            {
+              "name": "Alley 2",
+              "latitude": 2,
+              "longitude": 2
+            }
+          ]
+        },
+        "rewardPercentage": 50,
+        "id": "4"
+      },
+      {
+        "name": "fsd",
+        "type": "sdfsd",
+        "phoneNumber": "3453454",
+        "address": {
+          "name": "fgd",
+          "latitude": 35.566898908933496,
+          "longitude": 45.41428738835586
+        },
+        "zone": {
+          "id": "3",
+          "name": "Zone 3",
+          "alleys": [
+            {
+              "name": "Alley 1",
+              "latitude": 1,
+              "longitude": 1
+            },
+            {
+              "name": "Alley 2",
+              "latitude": 2,
+              "longitude": 2
+            }
+          ]
+        },
+        "rewardPercentage": 4444,
+        "id": "679b"
+      },
+      {
+        "id": "caea",
+        "name": "sdljfls",
+        "type": "fjsdkfjsdlk",
+        "phoneNumber": "2342342",
+        "address": {
+          "name": "sdfs",
+          "latitude": 35.56717983794134,
+          "longitude": 45.41440414734035
+        },
+        "zone": {
+          "id": "2",
+          "name": "Zone 2",
+          "alleys": [
+            {
+              "name": "Alley 1",
+              "latitude": 1,
+              "longitude": 1
+            },
+            {
+              "name": "Alley 2",
+              "latitude": 2,
+              "longitude": 2
+            }
+          ]
+        },
+        "rewardPercentage": 3
+      }
+    ],
+    "orders": [
+      {
+        "id": "1",
+        "customer": {
+          "id": 1,
+          "name": "Customer 1"
+        },
+        "products": [
+          {
+            "id": 1,
+            "name": "Ice Cup",
+            "quantity": 15,
+            "price": 150000
+          },
+          {
+            "id": 2,
+            "name": "Crystal Ice",
+            "quantity": 8,
+            "price": 200000
+          }
+        ],
+        "quantity": 23,
+        "offer": {
+          "id": 1,
+          "description": "",
+          "thresholdQuantity": 100,
+          "discountPercentage": 10
+        },
+        "delivered": false,
+        "total": 350000,
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "customer": {
+          "id": 1,
+          "name": "Customer 1"
+        },
+        "products": [
+          {
+            "id": 1,
+            "name": "Ice Cup",
+            "quantity": 15,
+            "price": 150000
+          },
+          {
+            "id": 2,
+            "name": "Crystal Ice",
+            "quantity": 8,
+            "price": 200000
+          }
+        ],
+        "quantity": 23,
+        "offer": {
+          "id": 1,
+          "description": "",
+          "thresholdQuantity": 100,
+          "discountPercentage": 10
+        },
+        "delivered": false,
+        "total": 350000,
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "3",
+        "customer": {
+          "id": 1,
+          "name": "Customer 1"
+        },
+        "products": [
+          {
+            "id": 1,
+            "name": "Ice Cup",
+            "quantity": 15,
+            "price": 150000
+          },
+          {
+            "id": 2,
+            "name": "Crystal Ice",
+            "quantity": 8,
+            "price": 200000
+          }
+        ],
+        "quantity": 23,
+        "offer": {
+          "id": 1,
+          "description": "",
+          "thresholdQuantity": 100,
+          "discountPercentage": 10
+        },
+        "delivered": false,
+        "total": 350000,
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "2ce1",
+        "customer": {
+          "id": "4",
+          "name": "Customer 4",
+          "type": "Hotel",
+          "phoneNumber": "07799999999",
+          "address": {
+            "name": "60M Street",
+            "latitude": 35.56703854451584,
+            "longitude": 45.416450322753974
+          },
+          "zone": {
+            "id": "3",
+            "name": "Zone 3",
+            "alleys": [
+              {
+                "name": "Alley 1",
+                "latitude": 1,
+                "longitude": 1
+              },
+              {
+                "name": "Alley 2",
+                "latitude": 2,
+                "longitude": 2
+              }
+            ]
+          }
+        },
+        "products": [],
+        "total": 0
+      },
+      {
+        "id": "e03f",
+        "customer": {
+          "id": "4",
+          "name": "Customer 4",
+          "type": "Hotel",
+          "phoneNumber": "07799999999",
+          "address": {
+            "name": "60M Street",
+            "latitude": 35.56703854451584,
+            "longitude": 45.416450322753974
+          },
+          "zone": {
+            "id": "3",
+            "name": "Zone 3",
+            "alleys": [
+              {
+                "name": "Alley 1",
+                "latitude": 1,
+                "longitude": 1
+              },
+              {
+                "name": "Alley 2",
+                "latitude": 2,
+                "longitude": 2
+              }
+            ]
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "2",
+              "name": "Crystal Ice",
+              "image": "../../assets/images/product2.jpg",
+              "category": "Frozen Products",
+              "unitPrice": 2500,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Crystal Ice"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "2"
+          }
+        ],
+        "total": 24000
+      },
+      {
+        "id": "6de7",
+        "customer": {
+          "id": "4",
+          "name": "Customer 4",
+          "type": "Hotel",
+          "phoneNumber": "07799999999",
+          "address": {
+            "name": "60M Street",
+            "latitude": 35.56703854451584,
+            "longitude": 45.416450322753974
+          },
+          "zone": {
+            "id": "3",
+            "name": "Zone 3",
+            "alleys": [
+              {
+                "name": "Alley 1",
+                "latitude": 1,
+                "longitude": 1
+              },
+              {
+                "name": "Alley 2",
+                "latitude": 2,
+                "longitude": 2
+              }
+            ]
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "image": "../../assets/images/product1.jpg",
+              "name": "Ice Cup",
+              "category": "Frozen Products",
+              "unitPrice": 1000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Ice Cup"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "55"
+          }
+        ],
+        "total": 660000
+      },
+      {
+        "id": "0bb9",
+        "customer": {
+          "id": "4",
+          "name": "Customer 4",
+          "type": "Hotel",
+          "phoneNumber": "07799999999",
+          "address": {
+            "name": "60M Street",
+            "latitude": 35.56703854451584,
+            "longitude": 45.416450322753974
+          },
+          "zone": {
+            "id": "3",
+            "name": "Zone 3",
+            "alleys": [
+              {
+                "name": "Alley 1",
+                "latitude": 1,
+                "longitude": 1
+              },
+              {
+                "name": "Alley 2",
+                "latitude": 2,
+                "longitude": 2
+              }
+            ]
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "image": "../../assets/images/product1.jpg",
+              "name": "Ice Cup",
+              "category": "Frozen Products",
+              "unitPrice": 1000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Ice Cup"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "55"
+          },
+          {
+            "product": {
+              "id": "2",
+              "name": "Crystal Ice",
+              "image": "../../assets/images/product2.jpg",
+              "category": "Frozen Products",
+              "unitPrice": 2500,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Crystal Ice"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "33"
+          }
+        ],
+        "total": 1056000
+      },
+      {
+        "id": "8d07",
+        "customer": {
+          "id": "4",
+          "name": "Customer 4",
+          "type": "Hotel",
+          "phoneNumber": "07799999999",
+          "address": {
+            "name": "60M Street",
+            "latitude": 35.56703854451584,
+            "longitude": 45.416450322753974
+          },
+          "zone": {
+            "id": "3",
+            "name": "Zone 3",
+            "alleys": [
+              {
+                "name": "Alley 1",
+                "latitude": 1,
+                "longitude": 1
+              },
+              {
+                "name": "Alley 2",
+                "latitude": 2,
+                "longitude": 2
+              }
+            ]
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "2",
+              "name": "Crystal Ice",
+              "image": "../../assets/images/product2.jpg",
+              "category": "Frozen Products",
+              "unitPrice": 2500,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Crystal Ice"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "5"
+          },
+          {
+            "product": {
+              "id": "1",
+              "image": "../../assets/images/product1.jpg",
+              "name": "Ice Cup",
+              "category": "Frozen Products",
+              "unitPrice": 1000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 4,
+              "name": "Package 2",
+              "product": {
+                "id": 1,
+                "name": "Ice Cup"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "7"
+          }
+        ],
+        "total": 144000
+      },
+      {
+        "id": "108e",
+        "customer": {
+          "id": "4",
+          "name": "Customer 4",
+          "type": "Hotel",
+          "phoneNumber": "07799999999",
+          "address": {
+            "name": "60M Street",
+            "latitude": 35.56703854451584,
+            "longitude": 45.416450322753974
+          },
+          "zone": {
+            "id": "3",
+            "name": "Zone 3",
+            "alleys": [
+              {
+                "name": "Alley 1",
+                "latitude": 1,
+                "longitude": 1
+              },
+              {
+                "name": "Alley 2",
+                "latitude": 2,
+                "longitude": 2
+              }
+            ]
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "image": "../../assets/images/product1.jpg",
+              "name": "Ice Cup",
+              "category": "Frozen Products",
+              "unitPrice": 1000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 4,
+              "name": "Package 2",
+              "product": {
+                "id": 1,
+                "name": "Ice Cup"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "2"
+          }
+        ],
+        "total": 24000
+      },
+      {
+        "id": "2c91",
+        "customer": {
+          "id": "4",
+          "name": "Customer 4",
+          "type": "Hotel",
+          "phoneNumber": "07799999999",
+          "address": {
+            "name": "60M Street",
+            "latitude": 35.56703854451584,
+            "longitude": 45.416450322753974
+          },
+          "zone": {
+            "id": "3",
+            "name": "Zone 3",
+            "alleys": [
+              {
+                "name": "Alley 1",
+                "latitude": 1,
+                "longitude": 1
+              },
+              {
+                "name": "Alley 2",
+                "latitude": 2,
+                "longitude": 2
+              }
+            ]
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "2",
+              "name": "Crystal Ice",
+              "image": "../../assets/images/product2.jpg",
+              "category": "Frozen Products",
+              "unitPrice": 2500,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Crystal Ice"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "2"
+          }
+        ],
+        "total": 24000
+      },
+      {
+        "id": "37c3",
+        "customer": {
+          "id": "4",
+          "name": "Customer 4",
+          "type": "Hotel",
+          "phoneNumber": "07799999999",
+          "address": {
+            "name": "60M Street",
+            "latitude": 35.56703854451584,
+            "longitude": 45.416450322753974
+          },
+          "zone": {
+            "id": "3",
+            "name": "Zone 3",
+            "alleys": [
+              {
+                "name": "Alley 1",
+                "latitude": 1,
+                "longitude": 1
+              },
+              {
+                "name": "Alley 2",
+                "latitude": 2,
+                "longitude": 2
+              }
+            ]
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "3",
+              "name": "Block Ice",
+              "image": "../../assets/images/product2.jpg",
+              "category": "Frozen Products",
+              "unitPrice": 5000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 3",
+              "product": {
+                "id": 1,
+                "name": "Block Ice"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "66"
+          },
+          {
+            "product": {
+              "id": "1",
+              "image": "../../assets/images/product1.jpg",
+              "name": "Ice Cup",
+              "category": "Frozen Products",
+              "unitPrice": 1000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 4,
+              "name": "Package 2",
+              "product": {
+                "id": 1,
+                "name": "Ice Cup"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "44"
+          }
+        ],
+        "total": 1320000,
+        "createdAt": "2024-09-06T00:17:42.931Z"
+      },
+      {
+        "id": "95a6",
+        "customer": {
+          "id": "4",
+          "name": "Customer 4",
+          "type": "Hotel",
+          "phoneNumber": "07799999999",
+          "address": {
+            "name": "60M Street",
+            "latitude": 35.56703854451584,
+            "longitude": 45.416450322753974
+          },
+          "zone": {
+            "id": "3",
+            "name": "Zone 3",
+            "alleys": [
+              {
+                "name": "Alley 1",
+                "latitude": 1,
+                "longitude": 1
+              },
+              {
+                "name": "Alley 2",
+                "latitude": 2,
+                "longitude": 2
+              }
+            ]
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "2",
+              "name": "Crystal Ice",
+              "image": "../../assets/images/product2.jpg",
+              "category": "Frozen Products",
+              "unitPrice": 2500,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Crystal Ice"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "5"
+          },
+          {
+            "product": {
+              "id": "1",
+              "image": "../../assets/images/product1.jpg",
+              "name": "Ice Cup",
+              "category": "Frozen Products",
+              "unitPrice": 1000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 4,
+              "name": "Package 2",
+              "product": {
+                "id": 1,
+                "name": "Ice Cup"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "6"
+          }
+        ],
+        "total": 132000
+      },
+      {
+        "id": "27fe",
+        "customer": {
+          "id": "4",
+          "name": "Customer 4",
+          "type": "Hotel",
+          "phoneNumber": "07799999999",
+          "address": {
+            "name": "60M Street",
+            "latitude": 35.56703854451584,
+            "longitude": 45.416450322753974
+          },
+          "zone": {
+            "id": "3",
+            "name": "Zone 3",
+            "alleys": [
+              {
+                "name": "Alley 1",
+                "latitude": 1,
+                "longitude": 1
+              },
+              {
+                "name": "Alley 2",
+                "latitude": 2,
+                "longitude": 2
+              }
+            ]
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "image": "../../assets/images/product1.jpg",
+              "name": "Ice Cup",
+              "category": "Frozen Products",
+              "unitPrice": 1000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 4,
+              "name": "Package 2",
+              "product": {
+                "id": 1,
+                "name": "Ice Cup"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "33"
+          },
+          {
+            "product": {
+              "id": "2",
+              "name": "Crystal Ice",
+              "image": "../../assets/images/product2.jpg",
+              "category": "Frozen Products",
+              "unitPrice": 2500,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Crystal Ice"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "55"
+          }
+        ],
+        "total": 1056000
+      },
+      {
+        "id": "0458",
+        "customer": {
+          "id": "4",
+          "name": "Customer 4",
+          "type": "Hotel",
+          "phoneNumber": "07799999999",
+          "address": {
+            "name": "60M Street",
+            "latitude": 35.56703854451584,
+            "longitude": 45.416450322753974
+          },
+          "zone": {
+            "id": "3",
+            "name": "Zone 3",
+            "alleys": [
+              {
+                "name": "Alley 1",
+                "latitude": 1,
+                "longitude": 1
+              },
+              {
+                "name": "Alley 2",
+                "latitude": 2,
+                "longitude": 2
+              }
+            ]
+          }
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "image": "../../assets/images/product1.jpg",
+              "name": "Ice Cup",
+              "category": "Frozen Products",
+              "unitPrice": 1000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Ice Cup"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "4"
+          },
+          {
+            "product": {
+              "id": "3",
+              "name": "Block Ice",
+              "image": "../../assets/images/product2.jpg",
+              "category": "Frozen Products",
+              "unitPrice": 5000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 3",
+              "product": {
+                "id": 1,
+                "name": "Block Ice"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "33"
+          }
+        ],
+        "total": 444000
+      },
+      {
+        "id": "481f",
+        "customer": {
+          "id": "3",
+          "name": "Customer 3",
+          "type": "Restaurant",
+          "phoneNumber": "0770 123 4567",
+          "address": {
+            "name": "Near Alley 3",
+            "latitude": 35.567841444389984,
+            "longitude": 45.41318875659087
+          },
+          "zone": {
+            "id": 1,
+            "name": "Zone 1"
+          },
+          "isRefrigeratorIssued": false,
+          "createdAt": "2023-01-01T00:00:00.000Z",
+          "updatedAt": "2023-01-01T00:00:00.000Z"
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "image": "../../assets/images/product1.jpg",
+              "name": "Ice Cup",
+              "category": "Frozen Products",
+              "unitPrice": 1000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Ice Cup"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "22"
+          }
+        ],
+        "total": 264000
+      },
+      {
+        "id": "4b92",
+        "customer": {
+          "id": "3",
+          "name": "Customer 3",
+          "type": "Restaurant",
+          "phoneNumber": "0770 123 4567",
+          "address": {
+            "name": "Near Alley 3",
+            "latitude": 35.567841444389984,
+            "longitude": 45.41318875659087
+          },
+          "zone": {
+            "id": 1,
+            "name": "Zone 1"
+          },
+          "isRefrigeratorIssued": false,
+          "createdAt": "2023-01-01T00:00:00.000Z",
+          "updatedAt": "2023-01-01T00:00:00.000Z"
+        },
+        "products": [
+          {
+            "product": {
+              "id": "3",
+              "name": "Block Ice",
+              "image": "../../assets/images/product2.jpg",
+              "category": "Frozen Products",
+              "unitPrice": 5000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 3",
+              "product": {
+                "id": 1,
+                "name": "Block Ice"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "5"
+          },
+          {
+            "product": {
+              "id": "1",
+              "image": "../../assets/images/product1.jpg",
+              "name": "Ice Cup",
+              "category": "Frozen Products",
+              "unitPrice": 1000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Ice Cup"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "5"
+          }
+        ],
+        "total": 120000
+      },
+      {
+        "id": "5de9",
+        "customer": {
+          "id": "3",
+          "name": "Customer 3",
+          "type": "Restaurant",
+          "phoneNumber": "0770 123 4567",
+          "address": {
+            "name": "Near Alley 3",
+            "latitude": 35.567841444389984,
+            "longitude": 45.41318875659087
+          },
+          "zone": {
+            "id": 1,
+            "name": "Zone 1"
+          },
+          "isRefrigeratorIssued": false,
+          "createdAt": "2023-01-01T00:00:00.000Z",
+          "updatedAt": "2023-01-01T00:00:00.000Z"
+        },
+        "products": [
+          {
+            "product": {
+              "id": "2",
+              "name": "Crystal Ice",
+              "image": "../../assets/images/product2.jpg",
+              "category": "Frozen Products",
+              "unitPrice": 2500,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Crystal Ice"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "2"
+          }
+        ],
+        "total": 24000
+      },
+      {
+        "id": "4670",
+        "customer": {
+          "id": "3",
+          "name": "Customer 3",
+          "type": "Restaurant",
+          "phoneNumber": "0770 123 4567",
+          "address": {
+            "name": "Near Alley 3",
+            "latitude": 35.567841444389984,
+            "longitude": 45.41318875659087
+          },
+          "zone": {
+            "id": 1,
+            "name": "Zone 1"
+          },
+          "isRefrigeratorIssued": false,
+          "createdAt": "2023-01-01T00:00:00.000Z",
+          "updatedAt": "2023-01-01T00:00:00.000Z"
+        },
+        "products": [
+          {
+            "product": {
+              "id": "2",
+              "name": "Crystal Ice",
+              "image": "../../assets/images/product2.jpg",
+              "category": "Frozen Products",
+              "unitPrice": 2500,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Crystal Ice"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "5"
+          }
+        ],
+        "total": 60000
+      },
+      {
+        "id": "0280",
+        "customer": {
+          "id": "3",
+          "name": "Customer 3",
+          "type": "Restaurant",
+          "phoneNumber": "0770 123 4567",
+          "address": {
+            "name": "Near Alley 3",
+            "latitude": 35.567841444389984,
+            "longitude": 45.41318875659087
+          },
+          "zone": {
+            "id": 1,
+            "name": "Zone 1"
+          },
+          "isRefrigeratorIssued": false,
+          "createdAt": "2023-01-01T00:00:00.000Z",
+          "updatedAt": "2023-01-01T00:00:00.000Z"
+        },
+        "products": [
+          {
+            "product": {
+              "id": "2",
+              "name": "Crystal Ice",
+              "image": "../../assets/images/product2.jpg",
+              "category": "Frozen Products",
+              "unitPrice": 2500,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Crystal Ice"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "3"
+          }
+        ],
+        "total": 36000
+      },
+      {
+        "id": "f87c",
+        "customer": {
+          "id": "3",
+          "name": "Customer 3",
+          "type": "Restaurant",
+          "phoneNumber": "0770 123 4567",
+          "address": {
+            "name": "Near Alley 3",
+            "latitude": 35.567841444389984,
+            "longitude": 45.41318875659087
+          },
+          "zone": {
+            "id": 1,
+            "name": "Zone 1"
+          },
+          "isRefrigeratorIssued": false,
+          "createdAt": "2023-01-01T00:00:00.000Z",
+          "updatedAt": "2023-01-01T00:00:00.000Z"
+        },
+        "products": [
+          {
+            "product": {
+              "id": "2",
+              "name": "Crystal Ice",
+              "image": "../../assets/images/product2.jpg",
+              "category": "Frozen Products",
+              "unitPrice": 2500,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Crystal Ice"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "2"
+          }
+        ],
+        "total": 24000
+      },
+      {
+        "id": "837f",
+        "customer": {
+          "id": "3",
+          "name": "Customer 3",
+          "type": "Restaurant",
+          "phoneNumber": "0770 123 4567",
+          "address": {
+            "name": "Near Alley 3",
+            "latitude": 35.567841444389984,
+            "longitude": 45.41318875659087
+          },
+          "zone": {
+            "id": 1,
+            "name": "Zone 1"
+          },
+          "isRefrigeratorIssued": false,
+          "createdAt": "2023-01-01T00:00:00.000Z",
+          "updatedAt": "2023-01-01T00:00:00.000Z"
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "image": "../../assets/images/product1.jpg",
+              "name": "Ice Cup",
+              "category": "Frozen Products",
+              "unitPrice": 1000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 4,
+              "name": "Package 2",
+              "product": {
+                "id": 1,
+                "name": "Ice Cup"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "33"
+          }
+        ],
+        "total": 396000
+      },
+      {
+        "id": "d673",
+        "customer": {
+          "id": "3",
+          "name": "Customer 3",
+          "type": "Restaurant",
+          "phoneNumber": "0770 123 4567",
+          "address": {
+            "name": "Near Alley 3",
+            "latitude": 35.567841444389984,
+            "longitude": 45.41318875659087
+          },
+          "zone": {
+            "id": 1,
+            "name": "Zone 1"
+          },
+          "isRefrigeratorIssued": false,
+          "createdAt": "2023-01-01T00:00:00.000Z",
+          "updatedAt": "2023-01-01T00:00:00.000Z"
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "image": "../../assets/images/product1.jpg",
+              "name": "Ice Cup",
+              "category": "Frozen Products",
+              "unitPrice": 1000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Ice Cup"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "33"
+          },
+          {
+            "product": {
+              "id": "3",
+              "name": "Block Ice",
+              "image": "../../assets/images/product2.jpg",
+              "category": "Frozen Products",
+              "unitPrice": 5000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 3",
+              "product": {
+                "id": 1,
+                "name": "Block Ice"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "8"
+          }
+        ],
+        "total": 492000
+      },
+      {
+        "id": "aa24",
+        "customer": {
+          "id": "3",
+          "name": "Customer 3",
+          "type": "Restaurant",
+          "phoneNumber": "0770 123 4567",
+          "address": {
+            "name": "Near Alley 3",
+            "latitude": 35.567841444389984,
+            "longitude": 45.41318875659087
+          },
+          "zone": {
+            "id": 1,
+            "name": "Zone 1"
+          },
+          "isRefrigeratorIssued": false,
+          "createdAt": "2023-01-01T00:00:00.000Z",
+          "updatedAt": "2023-01-01T00:00:00.000Z"
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "image": "../../assets/images/product1.jpg",
+              "name": "Ice Cup",
+              "category": "Frozen Products",
+              "unitPrice": 1000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 4,
+              "name": "Package 2",
+              "product": {
+                "id": 1,
+                "name": "Ice Cup"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "554"
+          },
+          {
+            "product": {
+              "id": "1",
+              "image": "../../assets/images/product1.jpg",
+              "name": "Ice Cup",
+              "category": "Frozen Products",
+              "unitPrice": 1000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 4,
+              "name": "Package 2",
+              "product": {
+                "id": 1,
+                "name": "Ice Cup"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "9"
+          }
+        ],
+        "total": 6756000
+      },
+      {
+        "id": "2499",
+        "customer": {
+          "name": "Customer 3",
+          "type": "Restaurant",
+          "phoneNumber": "0770 123 4567",
+          "address": {
+            "name": "Near Alley 3",
+            "latitude": 35.567841444389984,
+            "longitude": 45.41318875659087
+          },
+          "zone": {
+            "id": "1",
+            "name": "Zone 1",
+            "alleys": [
+              {
+                "name": "Alley 1",
+                "latitude": 35.567841444389984,
+                "longitude": 45.41318875659087
+              },
+              {
+                "name": "Alley 2",
+                "latitude": 35.566200727373584,
+                "longitude": 45.418295682555936
+              }
+            ]
+          },
+          "rewardPercentage": 333,
+          "id": "3"
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "image": "../../assets/images/product1.jpg",
+              "name": "Ice Cup",
+              "category": "Frozen Products",
+              "unitPrice": 1000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Ice Cup"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "66"
+          },
+          {
+            "product": {
+              "id": "2",
+              "name": "Crystal Ice",
+              "image": "../../assets/images/product2.jpg",
+              "category": "Frozen Products",
+              "unitPrice": 2500,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Crystal Ice"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "7"
+          }
+        ],
+        "total": 876000,
+        "paidAmount": 700000
+      },
+      {
+        "id": "d5de",
+        "customer": {
+          "name": "Customer 3",
+          "type": "Restaurant",
+          "phoneNumber": "0770 123 4567",
+          "address": {
+            "name": "Near Alley 3",
+            "latitude": 35.567841444389984,
+            "longitude": 45.41318875659087
+          },
+          "zone": {
+            "id": "1",
+            "name": "Zone 1",
+            "alleys": [
+              {
+                "name": "Alley 1",
+                "latitude": 35.567841444389984,
+                "longitude": 45.41318875659087
+              },
+              {
+                "name": "Alley 2",
+                "latitude": 35.566200727373584,
+                "longitude": 45.418295682555936
+              }
+            ]
+          },
+          "rewardPercentage": 50,
+          "id": "3"
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "image": "../../assets/images/product1.jpg",
+              "name": "Ice Cup",
+              "category": "Frozen Products",
+              "unitPrice": 1000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Ice Cup"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "1"
+          }
+        ],
+        "total": 12000,
+        "paidAmount": 1000,
+        "status": "pending",
+        "reward": {
+          "rewardType": "none"
+        }
+      },
+      {
+        "id": "b2c2",
+        "customer": {
+          "name": "Customer 3",
+          "type": "Restaurant",
+          "phoneNumber": "0770 123 4567",
+          "address": {
+            "name": "Near Alley 3",
+            "latitude": 35.567841444389984,
+            "longitude": 45.41318875659087
+          },
+          "zone": {
+            "id": "1",
+            "name": "Zone 1",
+            "alleys": [
+              {
+                "name": "Alley 1",
+                "latitude": 35.567841444389984,
+                "longitude": 45.41318875659087
+              },
+              {
+                "name": "Alley 2",
+                "latitude": 35.566200727373584,
+                "longitude": 45.418295682555936
+              }
+            ]
+          },
+          "rewardPercentage": 50,
+          "id": "3"
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "image": "../../assets/images/product1.jpg",
+              "name": "Ice Cup",
+              "category": "Frozen Products",
+              "unitPrice": 1000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Ice Cup"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "1"
+          }
+        ],
+        "total": 6000,
+        "paidAmount": 6000,
+        "status": "paid",
+        "reward": {
+          "rewardType": "order",
+          "thresholdAmount": 0
+        }
+      },
+      {
+        "id": "5ec0",
+        "customer": {
+          "name": "Customer 3",
+          "type": "Restaurant",
+          "phoneNumber": "0770 123 4567",
+          "address": {
+            "name": "Near Alley 3",
+            "latitude": 35.567841444389984,
+            "longitude": 45.41318875659087
+          },
+          "zone": {
+            "id": "1",
+            "name": "Zone 1",
+            "alleys": [
+              {
+                "name": "Alley 1",
+                "latitude": 35.567841444389984,
+                "longitude": 45.41318875659087
+              },
+              {
+                "name": "Alley 2",
+                "latitude": 35.566200727373584,
+                "longitude": 45.418295682555936
+              }
+            ]
+          },
+          "rewardPercentage": 50,
+          "id": "3"
+        },
+        "products": [
+          {
+            "product": {
+              "id": "1",
+              "image": "../../assets/images/product1.jpg",
+              "name": "Ice Cup",
+              "category": "Frozen Products",
+              "unitPrice": 1000,
+              "createdAt": "2023-01-01T00:00:00.000Z",
+              "updatedAt": "2023-01-01T00:00:00.000Z"
+            },
+            "package": {
+              "id": 1,
+              "name": "Package 1",
+              "product": {
+                "id": 1,
+                "name": "Ice Cup"
+              },
+              "quantity": 12,
+              "price": 12000
+            },
+            "quantity": "3"
+          }
+        ],
+        "total": 36000,
+        "paidAmount": 0,
+        "status": "unpaid",
+        "reward": {
+          "rewardType": "none",
+          "thresholdAmount": 100000
+        }
+      }
+    ],
+    "suppliers": [
+      {
+        "id": "1",
+        "name": "Supplier 1",
+        "phoneNumber": "0770 123 4567",
+        "category": "category 1",
+        "city": "New York",
+        "address": "60M Street",
+        "status": "active",
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "name": "Supplier 2",
+        "phoneNumber": "0770 123 4567",
+        "category": "category 2",
+        "city": "New York",
+        "address": "60M Street",
+        "status": "active",
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      }
+    ],
+    "supplies": [
+      {
+        "id": "1",
+        "name": "Box",
+        "supplier": {
+          "id": 1,
+          "name": "Supplier 1"
+        },
+        "quantity": 25,
+        "unitPrice": 100,
+        "total": 2500,
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "name": "Cup",
+        "supplier": {
+          "id": 2,
+          "name": "Supplier 2"
+        },
+        "quantity": 25,
+        "unitPrice": 200,
+        "total": 2500,
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      }
+    ],
+    "users": [
+      {
+        "id": "1",
+        "name": "Emma Doe",
+        "username": "emmadoe",
+        "phoneNumber": "0770 123 4567",
+        "city": "New York",
+        "address": "60M Street",
+        "role": "super admin",
+        "salary": 1000000,
+        "zones": [
+          {
+            "id": 1,
+            "name": "Zone 1"
+          },
+          {
+            "id": 2,
+            "name": "Zone 2"
+          }
+        ],
+        "image": "../../assets/images/user1.jpg",
+        "start": "2023-01-01",
+        "end": "2023-12-31",
+        "status": "active",
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "name": "John Doe",
+        "username": "johndoe",
+        "phoneNumber": "0770 123 4567",
+        "city": "New York",
+        "address": "60M Street",
+        "role": "admin",
+        "salary": 1000000,
+        "zones": [
+          {
+            "id": 1,
+            "name": "Zone 1"
+          },
+          {
+            "id": 2,
+            "name": "Zone 2"
+          }
+        ],
+        "image": "../../assets/images/user2.jpg",
+        "start": "2023-01-01",
+        "end": "2023-12-31",
+        "status": "active",
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      }
+    ],
+    "zones": [
+      {
+        "name": "Zone 1",
+        "alleys": [
+          {
+            "name": "Alley 1",
+            "latitude": 35.567841444389984,
+            "longitude": 45.41318875659087
+          },
+          {
+            "name": "Alley 2",
+            "latitude": 35.566200727373584,
+            "longitude": 45.418295682555936
+          }
+        ],
+        "id": "1"
+      },
+      {
+        "id": "2",
+        "name": "Zone 2",
+        "alleys": [
+          {
+            "name": "Alley 1",
+            "latitude": 1,
+            "longitude": 1
+          },
+          {
+            "name": "Alley 2",
+            "latitude": 2,
+            "longitude": 2
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Zone 3",
+        "alleys": [
+          {
+            "name": "Alley 1",
+            "latitude": 1,
+            "longitude": 1
+          },
+          {
+            "name": "Alley 2",
+            "latitude": 2,
+            "longitude": 2
+          }
+        ]
+      },
+      {
+        "name": "Zone 4",
+        "alleys": [
+          {
+            "name": "Alley 1",
+            "latitude": 37.798474044391014,
+            "longitude": -122.40062942330226
+          },
+          {
+            "name": "Alley 2",
+            "latitude": 37.80020345836455,
+            "longitude": -122.40509261910283
+          },
+          {
+            "name": "Alley 3",
+            "latitude": 37.801017286224265,
+            "longitude": -122.40243186776009
+          }
+        ],
+        "id": "27cb"
+      },
+      {
+        "name": "Zone 5",
+        "alleys": [
+          {
+            "name": "Alley 3",
+            "latitude": 35.56787635289727,
+            "longitude": 45.412974179870474
+          },
+          {
+            "name": "Alley 5",
+            "latitude": 35.56490907544993,
+            "longitude": 45.41434747088633
+          },
+          {
+            "name": "Alley 3",
+            "latitude": 35.56913304904511,
+            "longitude": 45.41542035449129
+          }
+        ],
+        "id": "58e7"
+      },
+      {
+        "name": "Zone 6",
+        "alleys": [
+          {
+            "name": "Alley 122",
+            "latitude": 37.80061037341555,
+            "longitude": -122.40474929634885
+          },
+          {
+            "name": "Alley 2",
+            "latitude": 37.79850795485832,
+            "longitude": -122.40195979897365
+          },
+          {
+            "name": "Alley 3",
+            "latitude": 37.798609686166316,
+            "longitude": -122.3974966031727
+          }
+        ],
+        "id": "42b3"
+      },
+      {
+        "name": "Zone 7",
+        "alleys": [
+          {
+            "name": "Alley 1",
+            "latitude": 37.798575776006416,
+            "longitude": -122.40114441131003
+          },
+          {
+            "name": "Alley 2",
+            "latitude": 37.800135639232366,
+            "longitude": -122.40513553832417
+          }
+        ],
+        "id": "ddca"
+      },
+      {
+        "name": "vnv",
+        "alleys": [
+          {
+            "name": "Alley 1",
+            "latitude": 35.564769436157334,
+            "longitude": 45.41460496295201
+          },
+          {
+            "name": "Alley 2",
+            "latitude": 35.56724799743216,
+            "longitude": 45.4165790687868
+          },
+          {
+            "name": "Alley 3",
+            "latitude": 35.565153443627324,
+            "longitude": 45.41984063494843
+          }
+        ],
+        "id": "d8f8"
+      },
+      {
+        "id": "5ff1",
+        "name": "kjsdkfjs",
+        "alleys": [
+          {
+            "name": "Alley 3",
+            "latitude": 0,
+            "longitude": 0
+          }
+        ]
+      }
+    ],
+    "debts": [
+      {
+        "id": "1",
+        "customer": {
+          "id": 1,
+          "name": "Customer 1",
+          "type": "Restaurant",
+          "phoneNumber": "0770 123 4567",
+          "address": {
+            "name": "Near Alley 1",
+            "latitude": 35.567841444389984,
+            "longitude": 45.41318875659087
+          },
+          "zone": {
+            "id": 1,
+            "name": "Zone 1"
+          },
+          "isRefrigeratorIssued": false,
+          "createdAt": "2023-01-01T00:00:00.000Z",
+          "updatedAt": "2023-01-01T00:00:00.000Z"
+        },
+        "paidAmount": 100000,
+        "remainingAmount": 100000,
+        "total": 200000,
+        "lastPaymentDate": "2023-01-01T00:00:00.000Z",
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "customer": {
+          "id": "2",
+          "name": "Customer 2",
+          "type": "Restaurant",
+          "phoneNumber": "0770 123 4567",
+          "address": {
+            "name": "Near Alley 2",
+            "latitude": 35.56490907544993,
+            "longitude": 45.41434747088633
+          },
+          "zone": {
+            "id": "58e7",
+            "name": "Zone 5",
+            "alleys": [
+              {
+                "name": "Alley 3",
+                "latitude": 35.56787635289727,
+                "longitude": 45.412974179870474
+              },
+              {
+                "name": "Alley 5",
+                "latitude": 35.56490907544993,
+                "longitude": 45.41434747088633
+              },
+              {
+                "name": "Alley 3",
+                "latitude": 35.56913304904511,
+                "longitude": 45.41542035449129
+              }
+            ]
+          },
+          "rewardPercentage": 22
+        },
+        "paidAmount": 33333,
+        "total": 444444,
+        "remainingAmount": 411111,
+        "lastPaymentDate": "2024-09-17",
+        "id": "9b37"
+      },
+      {
+        "customer": {
+          "id": "3",
+          "name": "Customer 3",
+          "type": "Restaurant",
+          "phoneNumber": "0770 123 4567",
+          "address": {
+            "name": "Near Alley 3",
+            "latitude": 35.567841444389984,
+            "longitude": 45.41318875659087
+          },
+          "zone": {
+            "id": "1",
+            "name": "Zone 1",
+            "alleys": [
+              {
+                "name": "Alley 1",
+                "latitude": 35.567841444389984,
+                "longitude": 45.41318875659087
+              },
+              {
+                "name": "Alley 2",
+                "latitude": 35.566200727373584,
+                "longitude": 45.418295682555936
+              }
+            ]
+          },
+          "rewardPercentage": 333
+        },
+        "paidAmount": 400000,
+        "total": 1000000,
+        "remainingAmount": 600000,
+        "lastPaymentDate": "2024-09-17",
+        "id": "9172"
+      },
+      {
+        "id": "8527",
+        "customer": {
+          "id": "3",
+          "name": "Customer 3",
+          "type": "Restaurant",
+          "phoneNumber": "0770 123 4567",
+          "address": {
+            "name": "Near Alley 3",
+            "latitude": 35.567841444389984,
+            "longitude": 45.41318875659087
+          },
+          "zone": {
+            "id": "1",
+            "name": "Zone 1",
+            "alleys": [
+              {
+                "name": "Alley 1",
+                "latitude": 35.567841444389984,
+                "longitude": 45.41318875659087
+              },
+              {
+                "name": "Alley 2",
+                "latitude": 35.566200727373584,
+                "longitude": 45.418295682555936
+              }
+            ]
+          },
+          "rewardPercentage": 333
+        },
+        "paidAmount": 33333,
+        "total": 2222222,
+        "remainingAmount": 2188889,
+        "lastPaymentDate": "2024-09-16"
+      },
+      {
+        "id": "f634",
+        "customer": {
+          "id": "3",
+          "name": "Customer 3",
+          "type": "Restaurant",
+          "phoneNumber": "0770 123 4567",
+          "address": {
+            "name": "Near Alley 3",
+            "latitude": 35.567841444389984,
+            "longitude": 45.41318875659087
+          },
+          "zone": {
+            "id": "1",
+            "name": "Zone 1",
+            "alleys": [
+              {
+                "name": "Alley 1",
+                "latitude": 35.567841444389984,
+                "longitude": 45.41318875659087
+              },
+              {
+                "name": "Alley 2",
+                "latitude": 35.566200727373584,
+                "longitude": 45.418295682555936
+              }
+            ]
+          },
+          "rewardPercentage": 333
+        },
+        "paidAmount": 100000,
+        "total": 200000,
+        "remainingAmount": 100000,
+        "lastPaymentDate": "2024-09-20"
+      }
+    ],
+    "payments": [
+      {
+        "id": "1",
+        "customer_id": 4,
+        "amount": 100000,
+        "currency": "USD",
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "customer_id": 4,
+        "amount": 64646464,
+        "currency": "USD",
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "3",
+        "customer_id": 2,
+        "amount": 22222,
+        "currency": "IQD",
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "53ff",
+        "customer_id": 3,
+        "amount": 600000,
+        "currency": "IQD"
+      },
+      {
+        "id": "0313",
+        "customer_id": 2,
+        "amount": 300,
+        "currency": "IQD"
+      },
+      {
+        "id": "eb67",
+        "customer_id": 4,
+        "amount": 200,
+        "currency": "USD"
+      }
+    ],
+    "expenses": [
+      {
+        "id": "1",
+        "name": "vehicles gas",
+        "amount": 1000,
+        "currency": "USD",
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "name": "water",
+        "amount": 1500000,
+        "currency": "IQD",
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "9ff4",
+        "name": "transportation",
+        "amount": 2000,
+        "currency": "USD",
+        "createdAt": "2023-01-01T00:00:00.000Z",
+        "updatedAt": "2023-01-01T00:00:00.000Z"
+      }
+    ]
+  }
+  
